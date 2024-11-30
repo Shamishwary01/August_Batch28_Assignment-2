@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 20%;url(https://img1.picmix.com/output/pic/normal/7/2/0/1/10071027_10200.gif)
+} */
+
+
+
+ 
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+form{
+    background-image: url("https://img.freepik.com/free-vector/flat-design-minimalist-background_23-2149955622.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724457600&semt=ais_hybrid");
+
+    border: 2px solid blue;
+    width: 60%;
+    position: center;
+    left: 20%;
+    background-color: aqua;
+    background-size: cover;
+    display: flex;
+}

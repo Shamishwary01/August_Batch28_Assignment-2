@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+label{
+    display: block;
+}
+
+.showcase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.video-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.video-content{
+    z-index: 1;
+}
+
+h1{
+    color: white;
+    padding-left: 70px;
+}
+.video-content a{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.video-content a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+#Story1{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 150px;
+    font-size: 20px;
+
+}
+#Story1 h1{
+    color: blue;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-decoration: underline;
+   
+}
+#Story1 p::first-letter{
+    color: orangered;
+    font-size: 50px;
+}
+
+#Story2{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 150px;
+    font-size: 20px;
+
+}
+#Story2 h1{
+    color: blue;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-decoration: underline;
+   
+}
+#Story2 p::first-letter{
+    color: orangered;
+    font-size: 50px;
+}
+form{
+   
+    border: 2px solid yellow;
+    display: block;
+    position: absolute;
+    width: 60%;
+    left: 20%;
+
+}
+
+.foot{
+    text-align: center;
+}
+/* 
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 20%;url(https://img1.picmix.com/output/pic/normal/7/2/0/1/10071027_10200.gif)
+} */
+
+/*form{
+    background-image: url("https://img.freepik.com/free-vector/flat-design-minimalist-background_23-2149955622.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724457600&semt=ais_hybrid");
+
+    border: 2px solid blue;
+    width: 60%;
+    position: center;
+    left: 20%;
+    background-color: aqua;
+    background-size: cover;
+    display: flex;
+}
+*/
